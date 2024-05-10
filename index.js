@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/movies", moviesRouter);
 app.use("/users", userRouter);
 
-const MONGO_URL =  'mongodb+srv://sreepathirajendran:bookmyshowsree@@bookmyshow.uoqhkdx.mongodb.net/'
+const MONGO_URL =  'mongodb+srv://sreepathirajendran:sree123bms@bookmyshow.uoqhkdx.mongodb.net/'
 
 const createConnection = async () => {
   const client = new MongoClient(MONGO_URL);
